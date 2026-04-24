@@ -1,7 +1,7 @@
 {
 	"name": "squirrel/squirrel-facets",
 	"description": "Squirrel Facets",
-	"type": "library",
+	"type": "wordpress-muplugin",
 	"authors": [
 		{
 			"name": "Ryan Kidd",
@@ -16,7 +16,8 @@
 		}
 	},
 	"require": {
-		"php": ">=8.1.0"
+		"php": ">=8.1.0",
+		"composer/installers": "^2.0"
 	},
 	"require-dev": {
 		"dealerdirect/phpcodesniffer-composer-installer": "^1.0",
